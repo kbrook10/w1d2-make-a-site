@@ -27,6 +27,16 @@ section{
     font-size: 1.5em;
     color: #fff;
 }
+
+.align{
+    display: inline-block;
+    margin: 20px;
+    transform: scale(.50);
+}
+.text {
+    transform: scale(1.15);
+}
+
 /*Styling of the Classes and IDs*/
 .sec-even{
     background-color: #D72638;
@@ -78,15 +88,23 @@ button {
     background: rgba(100, 100, 100, 0.6);
     color: #000;
     text-align: center;
+    transition: all .3s ease;
 }
 .btn-nav:hover{
     transform: scale(1.25);
 }
 /*Styling the Table*/
-
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
 /*Styling of about image*/
 .abt-img{
     width: 250px;
     height: 250px;
     border-radius: 100%;
 }
+/*Styling footer communication tags*/
+/*fa {
+    transform: scale(.25);
+}*/
