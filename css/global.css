@@ -59,3 +59,19 @@ img{
     text-align: center;
     margin: 25px;
 }
+/*Styling of buttons*/
+button {
+    font-size: 15px;
+}
+
+.btn-nav{
+    width: 100px;
+    background: rgb(100, 100, 100);
+    background: rgba(100, 100, 100, 0.6);
+    color: #000;
+    text-align: center;
+}
+.btn-nav:hover{
+    transform: scale(1.25);
+}
+/*Styling the Table*/
