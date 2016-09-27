@@ -18,7 +18,15 @@ main{
 section{
     padding: 50px;
 }
+/*Styling specific images to sections*/
 
+.history {
+    background: url(../images/bowbg.jpeg) no-repeat center center;
+    background-size: cover;
+    background-attachment:fixed;
+    font-size: 1.5em;
+    color: #fff;
+}
 /*Styling of the Classes and IDs*/
 .sec-even{
     background-color: #D72638;
