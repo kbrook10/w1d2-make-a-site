@@ -75,3 +75,10 @@ button {
     transform: scale(1.25);
 }
 /*Styling the Table*/
+
+/*Styling of about image*/
+.abt-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
