@@ -1,7 +1,9 @@
+/*Style the general page */
 html hr{
     margin: 0;
     padding: 0;
 }
+/*Styling of the body*/
 body{
     background-color: #E0E1E9;
     text-align: center;
@@ -17,13 +19,34 @@ section {
     padding: 50px;
 }
 
+/*Styling of the Classes and IDs*/
 .sec-even{
     background-color: #D72638;
+    padding: 30px;
 }
 
 .sec-odd{
     background-color: #3F88C5;
+    padding: 30px;
 }
+/*Styling to override the list to position to left*/
 .listleft {
     text-align: left;
+}
+/*Styling of the pictures on the page*/
+.img-box {
+    background-color: #000;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+.co-box {
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
 }
